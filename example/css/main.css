@@ -1,0 +1,17 @@
+#left_content {
+	width: 67.5%;
+	margin: 0 2.5% 0 0;
+	padding: 0;
+	float: left;
+}
+
+#right_content {
+	width: 30%;
+	margin: 0;	
+	float: left;
+}
+
+	#right_content > div {
+		padding: 2%;
+		width: 96%;
+	}
