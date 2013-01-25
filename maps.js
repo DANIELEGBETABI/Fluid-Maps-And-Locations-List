@@ -2,8 +2,7 @@
  * widget into '#map_canvas' and a retailers list into '#right_content'. 
  * Height and width is determined by canvas dimensions, and retailers 
  * list is populated from JSON. Retailers list interacts with canvas and 
- * vise-versa. This widget is dependent on jQuery, so make sure to set the 
- * order of dependencies to reflect this in config > shim.
+ * vise-versa. This widget is dependent on jQuery.
  */
 
 define(['jquery'], function($){
