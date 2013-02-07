@@ -7,7 +7,10 @@ visual cues. The map and list container are both fluid and ready to be given med
 is no need to add latitude and longitude coordinates, as google has a call that converts them from a street address.
 
 
-requires: jQuery, require.js
+#Dependencies: 
+- require.js
+- jQuery
+- googleMapsAPI v3
 
 
 notes:
