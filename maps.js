@@ -29,13 +29,13 @@ define(['jquery'], function($){
 					console.log("JSON loaded")
 					$.each(data.locations, function(key, value) {
 						retailersArray.push({
-							 name: value.name 
-							,address' : value.address 
-							,city' : value.city
-							,state' : value.state
-							,zip' : value.zip
-							,phone' : value.phone
-							,website' : value.website
+							 'name': value.name 
+							,'address' : value.address 
+							,'city' : value.city
+							,'state' : value.state
+							,'zip' : value.zip
+							,'phone' : value.phone
+							,'website' : value.website
 						});	
 					});
 					
